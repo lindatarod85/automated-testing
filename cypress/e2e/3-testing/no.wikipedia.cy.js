@@ -1,3 +1,5 @@
+//Test to check if site can search for Noroff
+
 describe("no.wikipedia.org", () => {
     it("can search for Noroff", () => {
       cy.visit("https://no.wikipedia.org");
@@ -5,3 +7,4 @@ describe("no.wikipedia.org", () => {
       cy.get('h1').contains("Noroff")
     })
   })
+
